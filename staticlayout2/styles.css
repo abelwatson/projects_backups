@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(102, 37, 155);
+    margin: 20px;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+}
+.containerNavBar {
+    position: absolute;
+}
+
+.kastLogo {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+ul.rightNavBar {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 500px;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+li.listA {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 26px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#openCast1 {
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#computer {
+    width: 610px;
+    height: auto;
+    padding-top: 70px;
+    padding-left: 175px;
+}
+
+.parties {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.whenever {
+    font-size: 20px;
+    color: white;
+    padding-right: 400px;
+    padding-left: 400px;
+    text-align: center;
+}
+
+#openKast2 {
+    color: white;
+    background-color:orange;
+    margin-left: 550px;
+    margin-right: 550px;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 3px;
+}
+
+.featured {
+    margin-top: 100px;
+    margin-right: 0;
+    margin-left: 0;
+    background: whitesmoke;
+}
+
+.featuredIn {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-right: 118px;
+    margin-left: 118px;
+
+}
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#quote {
+    font-size: 20px;
+    font: italic;
+    text-align: center;
+    padding-bottom: 50px;
+}
