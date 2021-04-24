@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Search</title>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <form class="searchBar">
+                <input type="text" placeholder="Who's That Pokemon" class="search">
+                <button type="submit" class="submit">Find Out!</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="results">
+        <section class="pokeImg">
+            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzMwM0M0MjsiIGQ9Ik0yNTYsMEMxMTQuODQ0LDAsMCwxMTQuODQ0LDAsMjU2czExNC44NDQsMjU2LDI1NiwyNTZzMjU2LTExNC44NDQsMjU2LTI1NlMzOTcuMTU2LDAsMjU2LDB6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojRTUzOTM1OyIgZD0iTTI1NiwyMS4zMzNjMTIxLjUwOCwwLDIyMS43MTUsOTIuODM3LDIzMy40ODMsMjExLjI5OWMtMTcuMzYyLDMuODQ1LTYxLjQ2NiwxMS44NzgtMTI3LjkwNCwxMi42MDgNCgljLTUuNDg0LTUzLjcwNC01MC40NTItOTUuOTA4LTEwNS41NzktOTUuOTA4cy0xMDAuMDk1LDQyLjIwMy0xMDUuNTc5LDk1LjkwOGMtNjYuNDM4LTAuNzMtMTEwLjU0Mi04Ljc2My0xMjcuOTA0LTEyLjYwOA0KCUMzNC4yODUsMTE0LjE3MSwxMzQuNDkyLDIxLjMzMywyNTYsMjEuMzMzeiIvPg0KPGNpcmNsZSBzdHlsZT0iZmlsbDojNDU1QTY0OyIgY3g9IjI1NiIgY3k9IjI1NiIgcj0iODUuMzMzIi8+DQo8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTI1Niw0OTAuNjY3QzEyNi42MDQsNDkwLjY2NywyMS4zMzMsMzg1LjM5NiwyMS4zMzMsMjU2YzAtMC41OTYsMC4wODYtMS4xNzEsMC4wOS0xLjc2Ng0KCWMyMC4zMSw0LjMyNCw2NC4yMjQsMTEuNTQ3LDEyOC45NywxMi4yNTFjNS4zNTcsNTMuODM3LDUwLjM4NSw5Ni4xODEsMTA1LjYwNyw5Ni4xODFzMTAwLjI1LTQyLjM0NCwxMDUuNjA3LTk2LjE4MQ0KCWM2NC43NDYtMC43MDQsMTA4LjY2LTcuOTI3LDEyOC45Ny0xMi4yNTFjMC4wMDQsMC41OTUsMC4wOSwxLjE2OSwwLjA5LDEuNzY2QzQ5MC42NjcsMzg1LjM5NiwzODUuMzk2LDQ5MC42NjcsMjU2LDQ5MC42Njd6Ii8+DQo8Y2lyY2xlIHN0eWxlPSJmaWxsOiMzMDNDNDI7IiBjeD0iMjU2IiBjeT0iMjU2IiByPSI2NCIvPg0KPGNpcmNsZSBzdHlsZT0iZmlsbDojRjJGMkYyOyIgY3g9IjI1NiIgY3k9IjI1NiIgcj0iNDIuNjY3Ii8+DQo8cGF0aCBzdHlsZT0ib3BhY2l0eTowLjI7ZmlsbDojRkZGRkZGO2VuYWJsZS1iYWNrZ3JvdW5kOm5ldyAgICA7IiBkPSJNMjIxLjc3NywyNjguODg4YzAtMjMuNTMxLDE5LjEzNS00Mi42NjcsNDIuNjY3LTQyLjY2Nw0KCWMxMi4yMTUsMCwyMy4xNjksNS4yMjQsMzAuOTU0LDEzLjQ3NWMtNi40MTgtMTUuNDU2LTIxLjY0My0yNi4zNjMtMzkuMzk4LTI2LjM2M2MtMjMuNTMxLDAtNDIuNjY3LDE5LjEzNS00Mi42NjcsNDIuNjY3DQoJYzAsMTEuMzE2LDQuNTAxLDIxLjU0OCwxMS43MTIsMjkuMTkxQzIyMi45NTcsMjgwLjE2MywyMjEuNzc3LDI3NC42NjQsMjIxLjc3NywyNjguODg4eiIvPg0KPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItNDUuNTc4NCIgeTE9IjYzOS41NTUiIHgyPSItMjMuODI3OCIgeTI9IjYyOS40MTM4IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDIxLjMzMzMgMCAwIC0yMS4zMzMzIDk5Ni4zMzM0IDEzNzkxLjY2NykiPg0KCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkZGRkY7c3RvcC1vcGFjaXR5OjAuMiIvPg0KCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkZGRkY7c3RvcC1vcGFjaXR5OjAiLz4NCjwvbGluZWFyR3JhZGllbnQ+DQo8cGF0aCBzdHlsZT0iZmlsbDp1cmwoI1NWR0lEXzFfKTsiIGQ9Ik0yNTYsMEMxMTQuODQ0LDAsMCwxMTQuODQ0LDAsMjU2czExNC44NDQsMjU2LDI1NiwyNTZzMjU2LTExNC44NDQsMjU2LTI1NlMzOTcuMTU2LDAsMjU2LDB6Ig0KCS8+DQo8cGF0aCBzdHlsZT0ib3BhY2l0eTowLjE7ZW5hYmxlLWJhY2tncm91bmQ6bmV3ICAgIDsiIGQ9Ik00NDQuNzQsMjM5Ljk5N2MyMS4wNDktMi41NTYsMzYuMTgtNS40NjcsNDQuNzQzLTcuMzY1DQoJYy01LjgwMS01OC4zOTUtMzMuMTU4LTExMC40OTYtNzMuODk3LTE0OC4zODdDNDM2LjA1MSwxMTkuMDU5LDQ0OCwxNTkuNDQ5LDQ0OCwyMDIuNjY3QzQ0OCwyMTUuNCw0NDYuNzAyLDIyNy44MDksNDQ0Ljc0LDIzOS45OTd6Ig0KCS8+DQo8cGF0aCBzdHlsZT0ib3BhY2l0eTowLjE7ZW5hYmxlLWJhY2tncm91bmQ6bmV3ICAgIDsiIGQ9Ik00OTAuNTc3LDI1NC4yMzRjLTEwLjU0NCwyLjI0NS0yNy41ODYsNS4yNTctNTAuNDY3LDcuNzQ3DQoJQzQxMy43MywzNjIuNjk4LDMyMi4yMDQsNDM3LjMzMywyMTMuMzMzLDQzNy4zMzNjLTYxLjc4OSwwLTExNy45MDgtMjQuMTg2LTE1OS44NTktNjMuMzYxDQoJQzk0LjIxNyw0NDMuNjM3LDE2OS42MzUsNDkwLjY2NywyNTYsNDkwLjY2N2MxMjkuMzk2LDAsMjM0LjY2Ny0xMDUuMjcxLDIzNC42NjctMjM0LjY2Nw0KCUM0OTAuNjY3LDI1NS40MDQsNDkwLjU4MSwyNTQuODI5LDQ5MC41NzcsMjU0LjIzNHoiLz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"" alt="Pokeball" id="pokeBall">
+        </section>
+        <section class="infoCard">                
+            <div>
+                <h1>N a m e : </h1>
+            </div>
+            <div>
+                <p id="pokeName" class="info-results">Lavender Town Palkia Marshtomp Blizzard Charmander</p>
+            </div>
+            <div>
+                <h1>T y p e : </h3>
+            </div>
+            <div>
+                <p id="pokeType" class="info-results">Ut labore et dolore magna aliqua Flaaffy Misty Lilligant Finneon</p>
+            </div>
+            <div>
+                <h1>H i t   P o i n t s : </h3>
+            </div>
+            <div>
+                <p id="hpPoints" class="info-results">Water Scolipede Octillery Cresselia Reuniclus Cleffa.</p>
+            </div>
+            <div>
+                <h1>A t t a c k : </h3>
+            </div>
+            <div>
+                <p id="attack" class="info-results">Squirtle Glameow Zangoose Tauros Cacturne</p>
+            </div>
+            <div>
+                <h1>S p e e d :  </h3>
+            </div>
+            <div>
+                <p id="speed" class="info-results">Vine Whip Volcarona Raikou Walrein Pidgeot</p>
+            </div>
+            <div>
+                <h1>W e i g h t : </h3>
+            </div>
+            <div>
+                <p id="weight" class="info-results">Bubble Kecleon Skorupi blast off at the speed of light Ivysaur Wailord.</p>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
