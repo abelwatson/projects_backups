@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+       <title>Currency API</title>
+</head>
+<body>
+       <div class="openingHeader">
+              <h1 id="header">Currency Exchange</h1>
+              <div class="dateSelector">
+                     <label for="start">See Historical Rates:</label>
+                     <input type="date" id="histDate" name="date" min="1990-01-01">
+                     <button id="submit">Show Rates</button>
+              </div>
+              <p>Based off the USD: United States Dollar</p>
+       </div>
+       <!-- <div class="exchanginator">
+              <h4 id="exchangeHeader">Lets Exchange Some Money: </h4>
+              <input type="number" placeholder="Exchange this money" class="monies">
+              <form class="dropdown">
+                     <select class="currencyOptions">
+                            <option value="volvo">Canadian Dollar</option>
+                            <option value="saab">European Union Euro</option>
+                            <option value="opel">Indian Rupee</option>
+                            <option value="audi">South Korean Won</option>
+                            <option value="audi">Swedish Krona</option>
+                            <option value="audi">UK Pound Sterling</option>
+                     </select>
+                     <input type="submit" class="exchange">
+              </form>
+       </div> -->
+       <div class="boxRates">
+              <div class="topRates">
+                     <div class="infoBoxes">
+                            <h2 id="gbpRate">$1 = </h2>
+                            <h4>UK GBP: Pound Sterling</h4>
+                     </div>
+                     <div class="infoBoxes">
+                            <h2 id="krwRate">$1 = </h2>
+                            <h4>South Korean KRW: Won</h4>
+                     </div>
+                     <div class="infoBoxes">
+                            <h2 id="eurRate">$1 = </h2>
+                            <h4>European Union EUR: Euro</h4>
+                     </div>
+              </div>
+              <div class="middleRates">
+                     <div class="infoBoxes">
+                            <h2 id="cadRate">$1 = </h2>
+                            <h4>CAD: Canadian Dollar</h4>
+                     </div>
+                     <div class="infoBoxes">
+                            <h2 id="sekRate">$1 = </h2>
+                            <h4>SEK: Swedish Krona</h4>
+                     </div>
+                     <div class="infoBoxes">
+                            <h2 id="inrRate">$1 = </h2>
+                            <h4>INR: Indian Rupee</h4>
+                     </div>
+              </div>
+              <div class="bottomRates">
+                     <div class="infoBoxes">
+                            <h2 id="myrRate">$1 = </h2>
+                            <h4>MYR: Malaysian Ringgit</h4>
+                     </div>
+                     <div class="infoBoxes">
+                            <h2 id="mxnRate">$1 = </h2>
+                            <h4>MXN: Mexican Peso</h4>
+                     </div>
+                     <div class="infoBoxes">
+                            <h2 id="thbRate">$1 = </h2>
+                            <h4>THB: Thai Bhat</h4>
+                     </div>
+              </div>
+       </div>
+
+
+       <script src="java.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+       background-image: url(assets/currencybackground.png);
+       background-repeat: round;
+       margin: 10px;
+       font-family: Garamond;
+}
+
+.openingHeader {
+       text-align: center;
+       display: block;
+       color: rgb(37, 230, 30);
+       border: yellow 5px ridge;
+       margin-left: 25%;
+       margin-right: 25%;
+       background-color: rgb(94, 94, 94);
+       margin-bottom: 10px;
+}
+
+#header {
+       font-size: 250%;
+}
+
+#date #showRates{
+       text-align: center;
+       border: 5px ridge gold;
+}
+
+/* .exchanginator {
+       text-align: center;
+       padding-bottom: 20px;
+       border: 5px ridge gold;
+       margin: auto;
+       width: 500px;
+       background-color: rgb(207, 29, 118);
+       font-family: Garamond;
+} */
+
+/* .currencyOptions {
+       background-color: rgb(4, 182, 4);
+       font-family: Garamond;
+       display: inline;
+} */
+
+/* .exchange {
+       border: gold ridge;
+       background-color: gold;
+       cursor: pointer;
+       font-family: Garamond;
+       display: inline;
+} */
+
+
+.topRates {
+       display: grid;
+       grid-template-columns: auto auto auto;
+       margin: 1%;
+       text-align: center;
+}
+
+.bottomRates{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       margin: 1%;
+       text-align: center;
+}
+
+.middleRates{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       margin: 1%;
+       text-align: center;
+}
+
+.infoBoxes {
+       color: white;
+       border: yellow 5px ridge;
+       background-color: rgb(18, 116, 207);
+       margin: auto;
+       width: 350px;
+       text-shadow: 0 0 3px yellow, 0 0 10px yellow;
+}
+
